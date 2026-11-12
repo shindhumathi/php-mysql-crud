@@ -43,7 +43,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     <input type="password" name="password" placeholder="Enter password..." required>
     <button type="submit">Submit</button>
 </form>
-<a href="read.php?msg=Recored created">Back to user list</a>
+<a href="search.php?msg=Recored created">Back to user list</a>
 <a href="logout.php"><button>Logout</button></a>
 </body>
 </html>
